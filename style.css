@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gillroy", sans-serif;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(13, 13, 13);
+}
+#panel {
+  overflow: hidden;
+  width: 80%;
+  height: 90%;
+  border-radius: 10px;
+  background-color: white;
+}
+#ptop {
+  display: flex;
+  padding: 0px 30%;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(192, 255, 55);
+}
+.elem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.elem h2 {
+  font-weight: 500;
+  font-size: 22px;
+}
+.box {
+  color: rgb(195, 63, 33);
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 22px;
+  border-radius: 5px;
+}
+#pbtm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  width: 100%;
+  height: calc(100% - 100px);
+}
+.bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: black;
+  background-color: rgb(203, 239, 255);
+  font-size: 25px;
+  font-weight: 500;
+  box-shadow: 2px 2px 1px black;
+}
+.bubble:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+#replay {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#replay:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  outline: none;
+  border: none;
+}
